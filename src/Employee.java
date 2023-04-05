@@ -1,14 +1,8 @@
 public interface Employee {
 
-    void getFullName();//возвращает полное имя работника
+    String getFullName();
 
-    void getDepartment();//возвращает название департамента, в котором работает
+    String getDepartment();
 
-    int getSalary();//возвращает размер заработной платы сотрудника
-
-    String getFullName(String employeeName);
-
-    String getDepartment(String workplace);
-
-    int getSalary(int salary);
+    int getSalary();
 }
